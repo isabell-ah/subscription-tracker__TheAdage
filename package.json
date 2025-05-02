@@ -1,0 +1,30 @@
+{
+  "name": "subscription-tracker__TheAdage",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon --env-file=.env app.js"
+  },
+  "dependencies": {
+    "@arcjet/inspect": "^1.0.0-beta.6",
+    "@arcjet/node": "^1.0.0-beta.6",
+    "@upstash/workflow": "^0.2.12",
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "~1.4.4",
+    "dayjs": "^1.11.13",
+    "debug": "~2.6.9",
+    "dotenv": "^16.5.0",
+    "express": "~4.16.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.14.1",
+    "morgan": "~1.9.1",
+    "nodemailer": "^6.10.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.1",
+    "eslint": "^9.25.1",
+    "globals": "^16.0.0"
+  }
+}
